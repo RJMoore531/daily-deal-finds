@@ -1,0 +1,414 @@
+{
+  "site_name": "Daily Deal Finds",
+  "affiliate_tag": "russmoore-20",
+  "last_updated": "2026-11-16T10:22:35.291318-05:00",
+  "last_updated_label": "Monday, November 16, 2026, 10:22 AM ET",
+  "sections": [
+    {
+      "id": "kids",
+      "title": "Kids' Toys",
+      "intro": "Early Black Friday picks for pretend play, building, and screen-free fun."
+    },
+    {
+      "id": "lego",
+      "title": "LEGO",
+      "intro": "Classic brick boxes, Star Wars, Creator 3-in-1 sets, and more, already marked down."
+    },
+    {
+      "id": "tech",
+      "title": "Tech",
+      "intro": "Headphones, tablets, laptops, and streaming devices from this week's early holiday sale."
+    },
+    {
+      "id": "holiday",
+      "title": "Holiday Deals",
+      "intro": "Advent calendars, d\u00e9cor, and gift-friendly finds ahead of Thanksgiving and Christmas."
+    }
+  ],
+  "deals": [
+    {
+      "asin": "B01B1V10KA",
+      "section": "kids",
+      "title": "Melissa & Doug Wooden Scoop & Serve Ice Cream Counter",
+      "blurb": "A favorite pretend-play ice cream shop with wooden scoops and toppings, featured in this week's early Black Friday toy roundups.",
+      "badge": "On sale now",
+      "source": "Parents, People, Good Housekeeping"
+    },
+    {
+      "asin": "B075KX9NS7",
+      "section": "kids",
+      "title": "Melissa & Doug Top & Bake Wooden Pizza Counter",
+      "blurb": "A wooden pizza oven and counter with toppings and a paddle. One of the deeper Melissa & Doug markdowns this week.",
+      "badge": "Early Black Friday",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B06XTJ76X2",
+      "section": "kids",
+      "title": "Melissa & Doug Wooden Beauty Salon Play Set",
+      "blurb": "An 18-piece wooden vanity with pretend makeup and a pull-out drawer, now part of the early holiday toy sale.",
+      "badge": "On sale now",
+      "source": "Good Housekeeping, Parents"
+    },
+    {
+      "asin": "B07KBQJV5H",
+      "section": "kids",
+      "title": "Melissa & Doug Take-Along Railroad Wooden Tabletop Play Set",
+      "blurb": "A portable wooden train set that folds up for travel, discounted in Amazon's early toy sale.",
+      "badge": "On sale now",
+      "source": "Parents, Good Housekeeping"
+    },
+    {
+      "asin": "B0CX4PFNX9",
+      "section": "kids",
+      "title": "MAGNA-TILES Builder XL 50-Piece Magnetic Construction Set",
+      "blurb": "A sturdy magnetic building set from a favorite STEM brand, on sale ahead of Black Friday.",
+      "badge": "On sale now",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0GH39S2GJ",
+      "section": "kids",
+      "title": "PAW Patrol: The Dino Movie Megasaurus Dino Vehicle",
+      "blurb": "A 2026 standout with an inflatable dinosaur, sounds, and a Rocky figure, already marked down for the holidays.",
+      "badge": "Holiday toy deal",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0GH9KQ365",
+      "section": "kids",
+      "title": "Play-Doh Super Sizzlin' Kitchen Playset",
+      "blurb": "A kitchen playset with cooking sounds and more than 25 play foods, included in this week's toy markdowns.",
+      "badge": "On sale now",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0G43R2F1C",
+      "section": "kids",
+      "title": "Hot Wheels City Ultimate T-Rex Garage",
+      "blurb": "A big track-and-storage set with a T-Rex and two die-cast cars, now in the early Black Friday toy sale.",
+      "badge": "On sale now",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B072QH418H",
+      "section": "kids",
+      "title": "Educational Insights GeoSafari Talking Microscope Featuring Bindi Irwin",
+      "blurb": "A talking STEM microscope with prepared slides, highlighted in early Black Friday toy guides.",
+      "badge": "STEM pick",
+      "source": "Parents"
+    },
+    {
+      "asin": "B0G2TDNKBJ",
+      "section": "kids",
+      "title": "Peppa Pig Ready, Pedal, Go Peppa Bike Playset",
+      "blurb": "An interactive Peppa bike set with sounds and reactions, on sale for holiday gifting.",
+      "badge": "On sale now",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0FR9B3Q5R",
+      "section": "kids",
+      "title": "Super Mario Galaxy Movie Hatchin' Yoshi",
+      "blurb": "A new interactive Yoshi toy with a hatching surprise and light-up eyes, already discounted.",
+      "badge": "On sale now",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0GQD46P1Z",
+      "section": "kids",
+      "title": "Crayola Color Wonder Magic Light Brush Featuring Ms. Rachel",
+      "blurb": "A mess-free Ms. Rachel coloring set that's a natural stocking stuffer for younger kids.",
+      "badge": "Stocking stuffer",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B00NHQFA1I",
+      "section": "lego",
+      "title": "LEGO Classic Medium Creative Brick Box (10696)",
+      "blurb": "A 484-piece storage box of classic bricks. One of Amazon's steepest LEGO discounts right now.",
+      "badge": "Deep discount",
+      "source": "BricksValue"
+    },
+    {
+      "asin": "B00NHQF6MG",
+      "section": "lego",
+      "title": "LEGO Classic Large Creative Brick Box (10698)",
+      "blurb": "A bigger open-ended brick box for longer builds, also marked down for early Black Friday.",
+      "badge": "On sale now",
+      "source": "Tom's Guide"
+    },
+    {
+      "asin": "B0DRW7GTNT",
+      "section": "lego",
+      "title": "LEGO Disney Moana 2 Kakamora Barge (43258)",
+      "blurb": "A retiring Moana 2 set with a deep early-holiday markdown at Amazon.",
+      "badge": "Retiring set",
+      "source": "BricksValue"
+    },
+    {
+      "asin": "B0FMYWSMDF",
+      "section": "lego",
+      "title": "LEGO Star Wars SMART Play: AT-ST Attack on Endor (75424)",
+      "blurb": "A SMART Play Endor set that's been sitting at a new low during Amazon's early sale.",
+      "badge": "New low",
+      "source": "9to5Toys, BricksValue"
+    },
+    {
+      "asin": "B0FMYX7GPG",
+      "section": "lego",
+      "title": "LEGO Star Wars SMART Play: Mos Eisley Cantina (75425)",
+      "blurb": "A larger SMART Play Star Wars build, among the current Amazon LEGO markdowns.",
+      "badge": "On sale now",
+      "source": "9to5Toys, BricksValue"
+    },
+    {
+      "asin": "B0FMYWPSL7",
+      "section": "lego",
+      "title": "LEGO Star Wars SMART Play: Yoda's Hut and Jedi Training (75422)",
+      "blurb": "Another SMART Play Star Wars set, discounted ahead of Black Friday.",
+      "badge": "On sale now",
+      "source": "9to5Toys, BricksValue"
+    },
+    {
+      "asin": "B0DF85X82B",
+      "section": "lego",
+      "title": "LEGO Fortnite Supply Llama (77071)",
+      "blurb": "A popular 691-piece Fortnite display build, widely listed this week at a notable markdown.",
+      "badge": "On sale now",
+      "source": "Slickdeals, Parents"
+    },
+    {
+      "asin": "B0BLJ4FDT4",
+      "section": "lego",
+      "title": "LEGO Creator 3-in-1 Space Shuttle",
+      "blurb": "Rebuilds into a shuttle, a spaceship, or an astronaut. A small, frequently discounted Creator set.",
+      "badge": "On sale now",
+      "source": "Tom's Guide, Slickdeals"
+    },
+    {
+      "asin": "B0DRW6C2RF",
+      "section": "lego",
+      "title": "LEGO Botanicals Happy Plants (10349)",
+      "blurb": "A cheerful plant set for a desk or bedroom, part of Amazon's early LEGO Botanicals sale.",
+      "badge": "On sale now",
+      "source": "9to5Toys"
+    },
+    {
+      "asin": "B0CGY3VF3K",
+      "section": "lego",
+      "title": "LEGO Creator 3-in-1 Forest Animals: Red Fox (31154)",
+      "blurb": "A Creator 3-in-1 forest animal set, discounted in this week's LEGO deals.",
+      "badge": "On sale now",
+      "source": "9to5Toys, The Brick Fan"
+    },
+    {
+      "asin": "B0DJ1B7BC1",
+      "section": "lego",
+      "title": "LEGO Creator 3-in-1 Wild Animals: Panda Family (31165)",
+      "blurb": "Rebuilds into a panda family, a penguin, or an orca. On sale now.",
+      "badge": "On sale now",
+      "source": "Slickdeals, Good Housekeeping"
+    },
+    {
+      "asin": "B0DRW6VY43",
+      "section": "lego",
+      "title": "LEGO Star Wars Battle Droid with STAP (75428)",
+      "blurb": "A larger Phantom Menace set, cited among the rarer early Black Friday LEGO cuts.",
+      "badge": "Early Black Friday",
+      "source": "9to5Toys, The Brick Fan"
+    },
+    {
+      "asin": "B0FQFB8FMG",
+      "section": "tech",
+      "title": "Apple AirPods Pro 3",
+      "blurb": "Apple's latest AirPods Pro, with noise cancellation and USB-C charging, down again in this week's early sale refresh.",
+      "badge": "New low",
+      "source": "9to5Toys, GeekyGoo"
+    },
+    {
+      "asin": "B0G4XRP464",
+      "section": "tech",
+      "title": "Amazon Fire TV Stick 4K (2026)",
+      "blurb": "Amazon's newest 4K streaming stick, one of the most-mentioned early holiday tech deals this month.",
+      "badge": "Early Black Friday",
+      "source": "The Verge, 9to5Toys, GeekyGoo"
+    },
+    {
+      "asin": "B0F3PQHWTZ",
+      "section": "tech",
+      "title": "Sony WH-1000XM6 Wireless Headphones (Black)",
+      "blurb": "Sony's flagship noise-cancelling headphones, at a new low ahead of Black Friday.",
+      "badge": "New low",
+      "source": "TechRadar, GeekyGoo, BuzzFeed"
+    },
+    {
+      "asin": "B0F2LCBKVN",
+      "section": "tech",
+      "title": "Bose QuietComfort Headphones",
+      "blurb": "Comfortable Bose noise-cancelling over-ear headphones, marked down in the early holiday sale.",
+      "badge": "On sale now",
+      "source": "Tom's Guide, GeekyGoo"
+    },
+    {
+      "asin": "B0GJTXVN9Z",
+      "section": "tech",
+      "title": "Apple AirTag (2nd Generation) 4-Pack",
+      "blurb": "A four-pack of second-gen AirTags, a handy stocking-stuffer deal at a recent low.",
+      "badge": "Stocking stuffer",
+      "source": "9to5Toys, BuzzFeed, GeekyGoo"
+    },
+    {
+      "asin": "B0DZ77D5HL",
+      "section": "tech",
+      "title": "Apple 11-inch iPad (A16, 128GB, Wi-Fi)",
+      "blurb": "The current 11-inch iPad with 128GB of storage, included in Amazon's early Apple deals.",
+      "badge": "On sale now",
+      "source": "Tom's Guide, GeekyGoo"
+    },
+    {
+      "asin": "B0GR19X8DC",
+      "section": "tech",
+      "title": "Apple 13-inch MacBook Air (M5, 16GB, 512GB, Silver)",
+      "blurb": "The 13-inch M5 MacBook Air with 16GB of memory and 512GB of storage, discounted in the early Apple sale.",
+      "badge": "Early Black Friday",
+      "source": "9to5Toys, Tom's Guide"
+    },
+    {
+      "asin": "B0GR1FSY63",
+      "section": "tech",
+      "title": "Apple 13-inch MacBook Air (M5, 16GB, 1TB, Midnight)",
+      "blurb": "The 1TB version of the 13-inch M5 MacBook Air, also part of this week's early Apple markdowns.",
+      "badge": "Early Black Friday",
+      "source": "9to5Toys, GeekyGoo"
+    },
+    {
+      "asin": "B0HGGJZ92H",
+      "section": "tech",
+      "title": "Apple Mac mini (M6, 16GB, 256GB)",
+      "blurb": "Apple's new M6 Mac mini desktop, marked down ahead of Black Friday Week.",
+      "badge": "On sale now",
+      "source": "9to5Toys, GeekyGoo"
+    },
+    {
+      "asin": "B0HJB63G4M",
+      "section": "tech",
+      "title": "Apple Watch Series 12 GPS 42mm",
+      "blurb": "The new Series 12 GPS model in 42mm, now at an early Black Friday price.",
+      "badge": "New low",
+      "source": "9to5Toys"
+    },
+    {
+      "asin": "B0GSS72GZJ",
+      "section": "tech",
+      "title": "Apple AirPods Max 2",
+      "blurb": "Apple's over-ear AirPods Max 2, with noise cancellation, included in this week's Apple markdowns.",
+      "badge": "On sale now",
+      "source": "GeekyGoo"
+    },
+    {
+      "asin": "B0GYMR7XKV",
+      "section": "tech",
+      "title": "ASUS Vivobook S16 Laptop (2026, Ryzen AI 7, 16GB, 1TB)",
+      "blurb": "A 16-inch Windows laptop with 16GB of RAM and a 1TB SSD, at a 2026 low in the early sale.",
+      "badge": "2026 low",
+      "source": "GeekyGoo"
+    },
+    {
+      "asin": "B0G5QKD8ZS",
+      "section": "holiday",
+      "title": "LEGO Star Wars Advent Calendar 2026 (75456)",
+      "blurb": "The official 2026 LEGO Star Wars Advent Calendar, already on sale for the countdown to Christmas.",
+      "badge": "Holiday countdown",
+      "source": "Tom's Guide"
+    },
+    {
+      "asin": "B0G5QNVMLT",
+      "section": "holiday",
+      "title": "LEGO Friends Advent Calendar 2026 (42698)",
+      "blurb": "The 2026 LEGO Friends Advent Calendar, with minidolls and animal figures, on sale now.",
+      "badge": "Holiday countdown",
+      "source": "BricksValue, Slickdeals"
+    },
+    {
+      "asin": "B08GGDCZT6",
+      "section": "holiday",
+      "title": "Best Choice Products 7.5-ft Pre-Decorated Flocked Christmas Tree",
+      "blurb": "A 7.5-foot pre-decorated flocked tree, a frequently recommended holiday pickup this week.",
+      "badge": "Holiday d\u00e9cor",
+      "source": "Tom's Guide"
+    },
+    {
+      "asin": "B075NS8YXG",
+      "section": "holiday",
+      "title": "Brightech Ambience Pro Solar Outdoor String Lights",
+      "blurb": "Solar-powered outdoor patio lights, a simple holiday-yard upgrade on sale now.",
+      "badge": "On sale now",
+      "source": "Tom's Guide"
+    },
+    {
+      "asin": "B0F3DPXQP1",
+      "section": "holiday",
+      "title": "Yankee Candle Balsam & Cedar Large Jar",
+      "blurb": "A classic balsam-and-cedar holiday scent, part of the current Yankee Candle markdowns.",
+      "badge": "Holiday scent",
+      "source": "BuzzFeed, 9to5Toys"
+    },
+    {
+      "asin": "B0C9SJYV3F",
+      "section": "holiday",
+      "title": "Bedsure XL Faux Fur Bubble Throw Blanket",
+      "blurb": "A cozy oversized faux-fur throw, appearing in early Black Friday gift lists.",
+      "badge": "Gift idea",
+      "source": "BuzzFeed"
+    },
+    {
+      "asin": "B0C2FF4JD1",
+      "section": "holiday",
+      "title": "Ninja Blast Portable Blender",
+      "blurb": "A cordless personal blender that crushes ice, a popular early-holiday kitchen gift.",
+      "badge": "Gift idea",
+      "source": "Tom's Guide"
+    },
+    {
+      "asin": "B0D1CXL52G",
+      "section": "holiday",
+      "title": "Ninja Flip Toaster Oven & Air Fryer",
+      "blurb": "A space-saving toaster oven and air fryer, marked down ahead of Thanksgiving cooking.",
+      "badge": "On sale now",
+      "source": "Tom's Guide"
+    },
+    {
+      "asin": "B0769ZQWH7",
+      "section": "holiday",
+      "title": "KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer",
+      "blurb": "The classic tilt-head stand mixer, a perennial holiday gift that's on sale now.",
+      "badge": "Gift idea",
+      "source": "BuzzFeed"
+    },
+    {
+      "asin": "B0006ONQOC",
+      "section": "holiday",
+      "title": "Cuisinart 2-Qt. Ice Cream Maker",
+      "blurb": "A family ice cream maker, included in this week's gift-guide deals.",
+      "badge": "Gift idea",
+      "source": "BuzzFeed"
+    },
+    {
+      "asin": "B07YPB8TBS",
+      "section": "holiday",
+      "title": "Ring Solar Pathlight",
+      "blurb": "A motion-activated solar path light, a practical outdoor add-on for the holidays.",
+      "badge": "On sale now",
+      "source": "Tom's Guide"
+    },
+    {
+      "asin": "B0GNNZTTDY",
+      "section": "holiday",
+      "title": "Blink Mini 2K+ and Wired Doorbell 2K+ Bundle",
+      "blurb": "A doorbell and indoor camera kit, among the steeper Amazon-device discounts this month.",
+      "badge": "Early Black Friday",
+      "source": "Tom's Guide"
+    }
+  ]
+}

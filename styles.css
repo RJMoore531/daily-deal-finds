@@ -1,0 +1,195 @@
+:root {
+  --cream: #f6f0e6;
+  --paper: #fffdf8;
+  --ink: #1c2b26;
+  --muted: #5b6b66;
+  --teal: #2a6f62;
+  --teal-dark: #1d5249;
+  --coral: #d96b3a;
+  --gold: #e8c37a;
+  --line: rgba(28, 43, 38, 0.12);
+  --shadow: 0 16px 40px rgba(28, 43, 38, 0.08);
+  --radius: 22px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(42, 111, 98, 0.10), transparent 50%),
+    radial-gradient(900px 400px at 100% 0%, rgba(217, 107, 58, 0.08), transparent 45%),
+    var(--cream);
+  color: var(--ink);
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.skip {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--teal);
+  color: white;
+  padding: 0.6rem 1rem;
+  z-index: 10;
+}
+.skip:focus { left: 1rem; top: 1rem; }
+
+.wrap {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 2.4rem 0 1.6rem;
+}
+.eyebrow {
+  margin: 0 0 0.55rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--teal-dark);
+}
+h1, h2, h3 {
+  font-family: Fraunces, Georgia, serif;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+h1 { font-size: clamp(2.3rem, 6vw, 4.2rem); max-width: 14ch; }
+.lede {
+  max-width: 46rem;
+  font-size: 1.12rem;
+  color: var(--muted);
+  margin: 1rem 0 0;
+}
+.updated, .disclosure, .note, .intro, .count, .footer p {
+  color: var(--muted);
+}
+.updated {
+  margin: 1.1rem 0 0.35rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.disclosure {
+  margin: 0 0 1.4rem;
+  font-size: 0.95rem;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.nav a {
+  display: inline-flex;
+  align-items: center;
+  background: var(--paper);
+  color: var(--teal-dark);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.nav a:hover, .nav a:focus-visible {
+  background: var(--teal);
+  color: white;
+  outline: none;
+}
+
+.note {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 0.95rem 1.1rem;
+  margin: 0 0 2rem;
+  font-size: 0.98rem;
+}
+
+.section { padding: 0.4rem 0 2.2rem; scroll-margin-top: 1rem; }
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+.section h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); }
+.count { margin: 0; font-size: 0.95rem; font-weight: 700; }
+.intro { margin: 0 0 1.1rem; max-width: 46rem; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.15rem 1.25rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.badge {
+  align-self: flex-start;
+  background: rgba(42, 111, 98, 0.12);
+  color: var(--teal-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 0.28rem 0.6rem;
+  margin-bottom: 0.7rem;
+}
+.card h3 {
+  font-size: 1.18rem;
+  margin-bottom: 0.55rem;
+}
+.card p {
+  margin: 0 0 1.15rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+  flex: 1;
+}
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: var(--coral);
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.btn:hover, .btn:focus-visible {
+  background: #c45c2f;
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.empty { color: var(--muted); }
+
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 1.8rem 0 2.6rem;
+  font-size: 0.95rem;
+}
+.footer p { margin: 0 0 0.7rem; }
+
+@media (max-width: 640px) {
+  body { font-size: 16.5px; }
+  .hero { padding-top: 1.5rem; }
+  .section-head { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
+  .card h3 { font-size: 1.08rem; }
+}
