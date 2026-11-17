@@ -120,6 +120,10 @@ def load_data() -> dict:
             {"id": "kids", "title": "Kids' Toys", "intro": ""},
             {"id": "lego", "title": "LEGO", "intro": ""},
             {"id": "tech", "title": "Tech", "intro": ""},
+            {"id": "tools", "title": "Tools", "intro": ""},
+            {"id": "bath", "title": "Toiletries & Bath", "intro": ""},
+            {"id": "decor", "title": "Home Decor", "intro": ""},
+            {"id": "kitchen", "title": "Kitchen & Small Appliances", "intro": ""},
             {"id": "holiday", "title": "Holiday Deals", "intro": ""},
         ],
     )
@@ -348,8 +352,8 @@ def render(data: dict) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{site} — Kids' toys, LEGO, tech, and holiday finds</title>
-  <meta name="description" content="A family-friendly daily roundup of Amazon deals on kids' toys, LEGO, tech, and holiday gifts. As an Amazon Associate I earn from qualifying purchases.">
+  <title>{site} — Toys, LEGO, tech, tools, home, kitchen, and holiday finds</title>
+  <meta name="description" content="A family-friendly daily roundup of Amazon deals on kids' toys, LEGO, tech, tools, bath, home decor, kitchen, and holiday gifts. As an Amazon Associate I earn from qualifying purchases.">
   <meta name="robots" content="index,follow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -363,7 +367,7 @@ def render(data: dict) -> str:
     <div class="wrap">
       <p class="eyebrow">A family-friendly daily deals desk</p>
       <h1>{site}</h1>
-      <p class="lede">Hand-picked Amazon finds in kids' toys, LEGO, tech, and holiday gifts. Updated daily, with a short note on why each one made the list.</p>
+      <p class="lede">Hand-picked Amazon finds in kids' toys, LEGO, tech, tools, toiletries &amp; bath, home decor, kitchen, and holiday gifts. Updated daily, with a short note on why each one made the list.</p>
       <p class="updated">Last updated {updated}</p>
       <p class="disclosure">{html.escape(DISCLOSURE)}</p>
       <nav class="nav" aria-label="Deal categories">

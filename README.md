@@ -1,6 +1,6 @@
 # Daily Deal Finds
 
-A family-friendly static site of daily Amazon finds in kids' toys, LEGO, tech, and holiday deals. Every product link is a plain Amazon URL with the Associates tag `russmoore-20`.
+A family-friendly static site of daily Amazon finds in eight sections: Kids' Toys, LEGO, Tech, Tools, Toiletries & Bath, Home Decor, Kitchen & Small Appliances, and Holiday Deals. Every product link is a plain Amazon URL with the Associates tag `russmoore-20`.
 
 ```
 https://www.amazon.com/dp/<ASIN>?tag=russmoore-20
