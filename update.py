@@ -51,15 +51,17 @@ ASIN_ENC_RE = re.compile(r"(?:/dp/|%2Fdp%2F)([A-Z0-9]{10})", re.I)
 
 # Public deal roundups and storefront-style lists. Add or remove as they change.
 SOURCE_URLS = [
-    "https://bricksvalue.com/lego-black-friday",
-    "https://9to5toys.com/2026/11/16/amazon-updates-early-black-friday-new-deals/",
+    "https://9to5toys.com/2026/11/17/amazon-updates-early-black-friday-new-deals/",
+    "https://9to5toys.com/2026/11/17/amazon-new-fire-tv-stick-4k-black-friday-price-live/",
     "https://9to5toys.com/2026/11/10/lego-early-black-friday-star-wars-smart-play-pokemon/",
-    "https://www.tomsguide.com/sales-events/37-amazon-deals-worth-shopping-before-black-friday-holiday-gifts-running-shoes-smart-home-devices-and-more",
-    "https://www.tomsguide.com/sales-events/amazon-takes-up-to-44-percent-off-lego-15-best-deals-on-lego-star-wars-botanicals-and-more",
+    "https://www.thebrickfan.com/lego-amazon-early-black-friday-2026-deals-live/",
     "https://www.goodhousekeeping.com/what-to-buy/sales-shopping-news/a74359564/early-black-friday-melissa-and-doug-toy-deals-2026/",
     "https://www.goodhousekeeping.com/what-to-buy/childrens-products/a74272502/amazon-toy-deals-early-black-friday-2026/",
-    "https://www.geekygoo.com/blog/amazon-black-friday-2026-best-tech-deals/",
-    "https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026",
+    "https://the-gadgeteer.com/2026/11/16/amazons-early-black-friday-power-tool-deals-reach-61-off-led-by-dewalt-and-greenworks-kits/",
+    "https://www.tomsguide.com/home/kitchen-dining/black-friday-thanksgiving-essential-appliance-deals-2026-16-11",
+    "https://www.housebeautiful.com/shopping/best-stores/a74359363/amazon-black-friday-home-deals/",
+    "https://www.bobvila.com/reviews/amazon-early-black-friday-christmas-trees-nov-2026/",
+    "https://www.bargainhunter.com/amazon-black-friday-holiday-decor/",
 ]
 
 # Keyword hints used only to drop obvious mismatches. Manual deals.json stays authoritative.
