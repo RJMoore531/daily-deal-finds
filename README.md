@@ -38,6 +38,7 @@ Amazon often serves a captcha or a short interstitial to datacenter IPs. If a ch
 - `update.py` — fetch / verify / render
 - `index.html` — generated homepage
 - `styles.css` — site styles
+- `og-image.png` — 1200×630 social share image (Open Graph / Twitter card)
 
 ## Hosting
 

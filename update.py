@@ -32,6 +32,17 @@ STYLES_PATH = ROOT / "styles.css"
 AFFILIATE_TAG = "russmoore-20"
 ZONE = dt.timezone(dt.timedelta(hours=-5), name="ET")  # America/New_York standard; see label
 SITE_NAME = "Daily Deal Finds"
+SITE_URL = "https://rjmoore531.github.io/daily-deal-finds/"
+OG_TITLE = "Black Friday Deals: My Top Picks Are Live! | Daily Deal Finds"
+OG_DESCRIPTION = (
+    "My top Black Friday picks are live! A family-friendly roundup of deals on "
+    "toys, LEGO, tech, tools, home, and holiday gifts."
+)
+OG_IMAGE = SITE_URL + "og-image.png"
+OG_IMAGE_ALT = (
+    "Black Friday Deals: My Top Picks Are Live! Daily Deal Finds — "
+    "toys, LEGO, tech, tools and more."
+)
 DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
 
 USER_AGENT = (
@@ -349,14 +360,35 @@ def render(data: dict) -> str:
         )
 
     body_sections = "\n".join(parts)
+    og_url = html.escape(SITE_URL, quote=True)
+    og_title = html.escape(OG_TITLE, quote=True)
+    og_desc = html.escape(OG_DESCRIPTION, quote=True)
+    og_image = html.escape(OG_IMAGE, quote=True)
+    og_alt = html.escape(OG_IMAGE_ALT, quote=True)
+    og_site = html.escape(data.get("site_name") or SITE_NAME, quote=True)
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{site} — Toys, LEGO, tech, tools, home, kitchen, and holiday finds</title>
+  <link rel="canonical" href="{og_url}">
   <meta name="description" content="A family-friendly daily roundup of Amazon deals on kids' toys, LEGO, tech, tools, bath, home decor, kitchen, and holiday gifts. As an Amazon Associate I earn from qualifying purchases.">
   <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{og_url}">
+  <meta property="og:title" content="{og_title}">
+  <meta property="og:description" content="{og_desc}">
+  <meta property="og:image" content="{og_image}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{og_alt}">
+  <meta property="og:site_name" content="{og_site}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{og_title}">
+  <meta name="twitter:description" content="{og_desc}">
+  <meta name="twitter:image" content="{og_image}">
+  <meta name="twitter:image:alt" content="{og_alt}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
