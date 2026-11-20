@@ -1,8 +1,8 @@
 {
   "site_name": "Daily Deal Finds",
   "affiliate_tag": "russmoore-20",
-  "last_updated": "2026-11-20T05:28:56.215531-05:00",
-  "last_updated_label": "Friday, November 20, 2026, 5:28 AM ET",
+  "last_updated": "2026-11-20T06:56:23.696416-05:00",
+  "last_updated_label": "Friday, November 20, 2026, 6:56 AM ET",
   "sections": [
     {
       "id": "kids",
@@ -484,7 +484,8 @@
       "title": "Crest 3D Whitestrips Professional Effects",
       "blurb": "At-home whitening strips for a brighter holiday smile.",
       "badge": "Self-care",
-      "source": "NBC Select"
+      "source": "NBC Select",
+      "coupon": true
     },
     {
       "asin": "B0BSHHNNFQ",
@@ -508,7 +509,8 @@
       "title": "American Soft Linen 600 GSM Turkish Cotton 6-Piece Towel Set",
       "blurb": "Plush Turkish cotton bath towels, hand towels, and washcloths.",
       "badge": "Towel deal",
-      "source": "Black Friday Is Here"
+      "source": "Black Friday Is Here",
+      "coupon": true
     },
     {
       "asin": "B00Q7JESL0",
@@ -580,7 +582,8 @@
       "title": "NEST New York Holiday Classic Candle",
       "blurb": "A festive candle with notes of pomegranate, spices, and pine.",
       "badge": "Seasonal",
-      "source": "House Beautiful"
+      "source": "House Beautiful",
+      "coupon": true
     },
     {
       "asin": "B0995QMQ78",

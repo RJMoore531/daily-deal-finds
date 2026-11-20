@@ -7,6 +7,10 @@ Daily command:
 Refresh from public deal roundups, verify ASINs, then rebuild:
     python3 update.py --fetch
 
+Check official Amazon clip coupons, promo codes, and Subscribe & Save
+offers, then rebuild (sets coupon true only when a page clearly shows one):
+    python3 update.py --check-coupons
+
 This script never invents ASINs or prices. Product links are plain
 https://www.amazon.com/dp/<ASIN>?tag=russmoore-20. Exact Amazon prices
 and star ratings are not written to the page (no Product Advertising API).
@@ -20,6 +24,7 @@ import html
 import json
 import re
 import sys
+import time
 import urllib.request
 from collections import OrderedDict
 from pathlib import Path
@@ -232,6 +237,200 @@ def verify_asin(asin: str) -> dict:
     return {"asin": asin, "ok": False, "reason": "captcha_or_unknown", "title": title, "bytes": len(page)}
 
 
+
+BOT_MARKERS = (
+    "validatecaptcha",
+    "enter the characters you see",
+    "sorry, we just need to make sure you're not a robot",
+    "click the button below to continue shopping",
+    "opfcaptcha",
+    "/errors/validatecaptcha",
+    "robot check",
+)
+
+# Visible, product-page wording only. Template strings like
+# "Save {number,percent} with coupon" are ignored.
+COUPON_VISIBLE_RE = re.compile(
+    r"\bapply\s+(?:\$\s*)?\d+(?:\.\d+)?\s*%?\s+(?:off\s+)?coupon\b|"
+    r"\bsave\s+(?:\$\s*)?\d+(?:\.\d+)?\s*%?\s+(?:off\s+)?(?:with\s+(?:a\s+)?)?coupon\b|"
+    r"\bsave\s+(?:\$\s*)?\d+(?:\.\d+)?\s*%?\s+with\s+(?:a\s+)?promo(?:tional)?\s+code\b|"
+    r"\bclip\s+(?:this\s+|the\s+)?coupon\b|"
+    r"\byou(?:'ve| have)\s+clipped\s+(?:this\s+)?coupon\b|"
+    r"\bsave\s+[^.]{0,40}\s+with\s+promo(?:tional)?\s+code\b",
+    re.I,
+)
+
+
+def page_is_blocked(page: str, status: int) -> bool:
+    """True when Amazon served a captcha or bot check instead of a product page."""
+    if not page or status in {0, 403, 429, 503}:
+        return True
+    low = page.lower()
+    has_title = 'id="producttitle"' in low or "id='producttitle'" in low
+    if any(marker in low for marker in BOT_MARKERS):
+        if not has_title:
+            return True
+        if "validatecaptcha" in low or "opfcaptcha" in low:
+            return True
+    if not has_title and len(page) < 20000 and "captcha" in low:
+        return True
+    return False
+
+
+def visible_page_text(page: str) -> str:
+    cleaned = re.sub(r"<script\b[^>]*>.*?</script>", " ", page, flags=re.I | re.S)
+    cleaned = re.sub(r"<style\b[^>]*>.*?</style>", " ", cleaned, flags=re.I | re.S)
+    cleaned = re.sub(r"<noscript\b[^>]*>.*?</noscript>", " ", cleaned, flags=re.I | re.S)
+    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    cleaned = html.unescape(cleaned)
+    return re.sub(r"\s+", " ", cleaned)
+
+
+# Buy-box / price-block IDs only. Sponsored carousels, reviews, and
+# "similar items" widgets are excluded so another product's coupon is not
+# attributed to this listing.
+OFFER_FEATURE_IDS = (
+    "buybox",
+    "desktop_buybox",
+    "apex_desktop",
+    "corePriceDisplay_desktop_feature_div",
+    "couponsInBuybox_feature_div",
+    "promoPriceBlockMessage_feature_div",
+    "promotionMessageInsideBuyBox_feature_div",
+    "promoMessagingDiscountValue_feature_div",
+)
+OFFER_LIMITS = {
+    "buybox": 120000,
+    "desktop_buybox": 120000,
+    "apex_desktop": 100000,
+    "corePriceDisplay_desktop_feature_div": 50000,
+}
+
+
+def extract_offer_html(page: str) -> str:
+    """HTML for this product's offer area, truncated before related widgets."""
+    parts = []
+    for elem_id in OFFER_FEATURE_IDS:
+        match = re.search(rf'id="{re.escape(elem_id)}"', page, re.I)
+        if not match:
+            continue
+        limit = OFFER_LIMITS.get(elem_id, 25000)
+        chunk = page[match.start() : match.start() + limit]
+        for stop in (
+            'id="sp_detail',
+            'id="reviewsMedley',
+            'id="similarities',
+            'id="purchase-sims',
+            'id="rhf"',
+            'id="discover-',
+        ):
+            idx = chunk.find(stop)
+            if idx != -1:
+                chunk = chunk[:idx]
+        parts.append(chunk)
+    return "\n".join(parts)
+
+
+def has_official_coupon(page: str) -> tuple[bool, str]:
+    """Return (found, reason) for an official Amazon coupon, promo, or S&S offer.
+
+    Only this product's buy box and price block count. Global nav
+    'Subscribe & Save' links, empty coupon widget shells, sponsored
+    carousels, and reviews are ignored. Discount amounts are not returned.
+    """
+    offer = extract_offer_html(page)
+    visible = visible_page_text(offer)
+    for match in COUPON_VISIBLE_RE.finditer(visible):
+        snippet = match.group(0)
+        if "{" in snippet or "}" in snippet:
+            continue
+        kind = "promo" if "promo" in snippet.lower() else "coupon"
+        return True, kind
+
+    # Rendered Subscribe & Save row in this product's buy box. The same
+    # string appears in unused JS layout lists on most pages; the rendered
+    # widget carries data-feature-name.
+    if re.search(
+        r'data-feature-name="snsCaptionAndDiscountPillAbbreviated"',
+        page,
+        re.I,
+    ):
+        return True, "sns"
+
+    widget = re.search(
+        r'id="(?:vpcButton|couponBadge)"[^>]*>(.*?)</div>',
+        offer,
+        re.I | re.S,
+    )
+    if widget:
+        inner = visible_page_text(widget.group(1))
+        if re.search(r"\b(coupon|promo(?:tional)?\s+code)\b", inner, re.I) and "{" not in inner:
+            return True, "coupon-widget"
+    return False, ""
+
+
+def check_deal_coupon(asin: str, retries: int = 1) -> dict:
+    """Fetch a product page and look for an official coupon. Never invents a yes."""
+    url = f"https://www.amazon.com/dp/{asin}"
+    last = {"asin": asin, "coupon": False, "reason": "fetch_failed", "blocked": False}
+    for attempt in range(retries + 1):
+        status, page = fetch_url(url, ua=ROUNDUP_UA, timeout=30)
+        if page_is_blocked(page, status):
+            last = {
+                "asin": asin,
+                "coupon": False,
+                "reason": "blocked",
+                "blocked": True,
+                "http": status,
+                "bytes": len(page or ""),
+            }
+            if attempt < retries:
+                time.sleep(8)
+                continue
+            return last
+        found, why = has_official_coupon(page)
+        return {
+            "asin": asin,
+            "coupon": found,
+            "reason": why or "none",
+            "blocked": False,
+            "http": status,
+            "bytes": len(page or ""),
+        }
+    return last
+
+
+def check_coupons(data: dict, delay: float = 1.8) -> dict:
+    """Set coupon true only when the live Amazon page shows an official offer.
+
+    Leaves the field absent when no coupon is found, and unchanged (false/absent)
+    when a page is blocked by a bot check.
+    """
+    summary = {"checked": 0, "blocked": 0, "found": 0, "items": []}
+    total = len(data.get("deals") or [])
+    for i, deal in enumerate(data["deals"], start=1):
+        asin = deal.get("asin") or ""
+        title = deal.get("title") or asin
+        print(f"[{i}/{total}] {asin} {title[:60]}", flush=True)
+        result = check_deal_coupon(asin)
+        summary["checked"] += 1
+        if result["blocked"]:
+            summary["blocked"] += 1
+            # Do not clear an existing true, and do not invent a false-positive.
+            print(f"  blocked ({result.get('http')}, {result.get('bytes')} bytes)", flush=True)
+        elif result["coupon"]:
+            deal["coupon"] = True
+            summary["found"] += 1
+            summary["items"].append({"asin": asin, "title": title, "reason": result["reason"]})
+            print(f"  coupon: {result['reason']}", flush=True)
+        else:
+            deal.pop("coupon", None)
+            print("  no official coupon", flush=True)
+        if i < total:
+            time.sleep(delay)
+    return summary
+
+
 def guess_section(title: str) -> str | None:
     t = title.lower()
     if any(h in t for h in LEGO_HINTS) and ("advent" in t):
@@ -322,6 +521,52 @@ def render(data: dict) -> str:
     nav = "\n".join(
         f'<a href="#{html.escape(s["id"])}">{html.escape(s["title"])}</a>' for s in sections
     )
+    coupon_count = sum(1 for d in deals if d.get("coupon") is True)
+    if coupon_count:
+        nav = nav + '\n<a href="#deals" class="filter-coupons" data-filter="coupons">Coupons</a>'
+    coupon_note = ""
+    if coupon_count:
+        coupon_note = (
+            '<p class="note coupon-note">Coupon badges mean Amazon showed a clip-on coupon '
+            "or promo on the product page when we checked; clip it on Amazon at checkout. "
+            "Coupons can end anytime.</p>"
+        )
+    coupon_script = ""
+    if coupon_count:
+        coupon_script = """
+  <script>
+  (function () {
+    var chip = document.querySelector("[data-filter='coupons']");
+    if (!chip) return;
+    var on = false;
+    function apply() {
+      chip.classList.toggle("is-active", on);
+      chip.setAttribute("aria-pressed", on ? "true" : "false");
+      document.querySelectorAll(".card").forEach(function (card) {
+        card.hidden = on && card.getAttribute("data-coupon") !== "true";
+      });
+      document.querySelectorAll(".section").forEach(function (section) {
+        var any = section.querySelector(".card:not([hidden])");
+        section.hidden = on && !any;
+      });
+    }
+    chip.setAttribute("role", "button");
+    chip.setAttribute("aria-pressed", "false");
+    chip.addEventListener("click", function (e) {
+      e.preventDefault();
+      on = !on;
+      apply();
+    });
+    document.querySelectorAll('.nav a:not([data-filter="coupons"])').forEach(function (link) {
+      link.addEventListener("click", function () {
+        if (on) {
+          on = false;
+          apply();
+        }
+      });
+    });
+  })();
+  </script>"""
     parts = []
     for section in sections:
         cards = []
@@ -333,10 +578,18 @@ def render(data: dict) -> str:
             title = html.escape(deal.get("title") or f"Amazon product {asin}")
             blurb = html.escape(deal.get("blurb") or "On sale now. Check the current price on Amazon.")
             badge = html.escape(deal.get("badge") or "On sale now")
+            coupon_html = ""
+            coupon_attr = ""
+            if deal.get("coupon") is True:
+                coupon_html = '<span class="coupon-badge">Coupon available on Amazon</span>'
+                coupon_attr = ' data-coupon="true"'
             cards.append(
                 f"""
-        <article class="card">
-          <span class="badge">{badge}</span>
+        <article class="card"{coupon_attr}>
+          <div class="badge-row">
+            <span class="badge">{badge}</span>
+            {coupon_html}
+          </div>
           <h3>{title}</h3>
           <p>{blurb}</p>
           <a class="btn" href="{url}" target="_blank" rel="nofollow sponsored">Check price on Amazon</a>
@@ -411,6 +664,7 @@ def render(data: dict) -> str:
   </header>
   <main id="deals" class="wrap">
     <p class="note">Prices change throughout the day, so we don't list Amazon prices or star ratings here. Open a product to see the current offer. Every link goes straight to Amazon and includes our affiliate tag.</p>
+    {coupon_note}
     {body_sections}
   </main>
   <footer class="footer">
@@ -420,6 +674,7 @@ def render(data: dict) -> str:
       <p>Product availability and discounts can change or sell out. Please review the live listing, shipping details, and age guidance on Amazon before you buy.</p>
     </div>
   </footer>
+  {coupon_script}
 </body>
 </html>
 """
@@ -443,6 +698,11 @@ def main() -> int:
         action="store_true",
         help="Re-verify ASINs already in deals.json and drop only clear 404s.",
     )
+    parser.add_argument(
+        "--check-coupons",
+        action="store_true",
+        help="Check each deal's Amazon page for an official clip coupon, promo code, or Subscribe & Save offer.",
+    )
     args = parser.parse_args()
 
     data = load_data()
@@ -452,6 +712,14 @@ def main() -> int:
     if args.fetch:
         added, dropped = fetch_new_deals(data)
         print(f"Fetch complete: added {added}, dropped {dropped}")
+    elif args.check_coupons:
+        summary = check_coupons(data)
+        print(
+            f"Coupon check complete: checked {summary['checked']}, "
+            f"blocked {summary['blocked']}, badges {summary['found']}"
+        )
+        for item in summary["items"]:
+            print(f"  badge: {item['title']} ({item['asin']})")
     elif args.verify:
         kept = []
         dropped = 0

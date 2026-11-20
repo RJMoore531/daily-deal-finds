@@ -193,3 +193,34 @@ h1 { font-size: clamp(2.3rem, 6vw, 4.2rem); max-width: 14ch; }
   .section-head { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
   .card h3 { font-size: 1.08rem; }
 }
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.7rem;
+}
+.badge-row .badge,
+.badge-row .coupon-badge {
+  margin-bottom: 0;
+}
+.coupon-badge {
+  align-self: flex-start;
+  background: #e8c37a;
+  color: #3a2a10;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  padding: 0.28rem 0.65rem;
+  margin-bottom: 0.7rem;
+}
+.nav a.is-active {
+  background: #e8c37a;
+  color: #3a2a10;
+  border-color: transparent;
+}
+.coupon-note {
+  margin-top: -1.2rem;
+}
