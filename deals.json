@@ -1,18 +1,18 @@
 {
   "site_name": "Daily Deal Finds",
   "affiliate_tag": "russmoore-20",
-  "last_updated": "2026-11-20T06:56:23.696416-05:00",
-  "last_updated_label": "Friday, November 20, 2026, 6:56 AM ET",
+  "last_updated": "2026-11-21T05:59:03.177429-05:00",
+  "last_updated_label": "Saturday, November 21, 2026, 5:59 AM ET",
   "sections": [
     {
       "id": "kids",
       "title": "Kids' Toys",
-      "intro": "Black Friday Week toy picks for ride-on fun, pretend play, STEM building, and family game night."
+      "intro": "Black Friday Week toy picks: screen-free audio, STEM builders, Mario fun, and classic games."
     },
     {
       "id": "lego",
       "title": "LEGO",
-      "intro": "Star Wars, Creator 3-in-1, Speed Champions, Botanicals, and holiday builds from Amazon's LEGO Black Friday sale."
+      "intro": "Star Wars, Creator 3-in-1, Animal Crossing, Disney, Icons, and holiday builds from Amazon's LEGO Black Friday sale."
     },
     {
       "id": "tech",
@@ -63,54 +63,6 @@
       "source": "Good Housekeeping"
     },
     {
-      "asin": "B0GGTPDVLG",
-      "section": "kids",
-      "title": "MAGNA-TILES Undersea Adventure 58-Piece Set",
-      "blurb": "Magnetic tiles with ocean-themed pieces for building reefs, subs, and sea creatures.",
-      "badge": "STEM pick",
-      "source": "Good Housekeeping"
-    },
-    {
-      "asin": "B0DNGDK1VP",
-      "section": "kids",
-      "title": "Play-Doh Pizza Slice Playset",
-      "blurb": "Roll, top, and slice pretend pizzas with colorful Play-Doh and kid-safe tools.",
-      "badge": "Creative play",
-      "source": "Good Housekeeping"
-    },
-    {
-      "asin": "B0CQ3L2SZH",
-      "section": "kids",
-      "title": "Play-Doh Marvel Spider-Man Launch & Slice Battle Playset",
-      "blurb": "A Spider-Man themed Play-Doh set with launchers and molds for superhero squish battles.",
-      "badge": "Superhero fun",
-      "source": "Good Housekeeping"
-    },
-    {
-      "asin": "B0GN8KDS1Q",
-      "section": "kids",
-      "title": "VTech 3-in-1 Race and Repair Hauler",
-      "blurb": "A talking toy hauler that converts into a race track and repair shop for preschool car fans.",
-      "badge": "Preschool pick",
-      "source": "Good Housekeeping"
-    },
-    {
-      "asin": "B0H4HP9117",
-      "section": "kids",
-      "title": "Step2 Up & Down Roller Coaster",
-      "blurb": "A kid-powered backyard or playroom coaster with a car that rolls down a gentle track.",
-      "badge": "Active play",
-      "source": "Good Housekeeping"
-    },
-    {
-      "asin": "B077YYP739",
-      "section": "kids",
-      "title": "Transformers Heroic Optimus Prime",
-      "blurb": "An easy-converting Optimus Prime that switches from robot to truck in a few simple steps.",
-      "badge": "Ages 3+",
-      "source": "Good Housekeeping"
-    },
-    {
       "asin": "B06XY881H4",
       "section": "kids",
       "title": "Hasbro Gaming Connect 4 Strategy Board Game",
@@ -119,28 +71,76 @@
       "source": "Good Housekeeping"
     },
     {
-      "asin": "B0CSH57QYD",
+      "asin": "B0D541M5C6",
       "section": "kids",
-      "title": "Learning Resources Peeksville Learning Barnyard Playset",
-      "blurb": "A hide-and-seek farm playset that builds colors, counting, and fine motor skills.",
-      "badge": "Toddler pick",
+      "title": "Yoto Mini Audio Player",
+      "blurb": "A pocket-size, screen-free player for audiobooks, music, and podcasts using kid-friendly cards.",
+      "badge": "Screen-free",
       "source": "Good Housekeeping"
     },
     {
-      "asin": "B0GTBYWK8F",
+      "asin": "B0G43R2F1C",
       "section": "kids",
-      "title": "Educational Insights Boxineers Cardboard Vehicles",
-      "blurb": "Build-your-own cardboard vehicles that kids assemble, decorate, and play with.",
-      "badge": "STEM pick",
+      "title": "Hot Wheels Ultimate T-Rex Garage",
+      "blurb": "A giant dino-themed garage with ramps, parking, and a car-chomping T-Rex for big Hot Wheels fans.",
+      "badge": "Big gift",
       "source": "Good Housekeeping"
     },
     {
-      "asin": "B0B8JHJQFX",
+      "asin": "B0CX4PFNX9",
       "section": "kids",
-      "title": "Skillmatics Foil Fun Space",
-      "blurb": "A no-mess foil art activity with space-themed designs.",
-      "badge": "Crafts",
+      "title": "MAGNA-TILES Builder XL Set",
+      "blurb": "Larger magnetic tile set for towers, castles, and garages, with room for siblings to build together.",
+      "badge": "STEM",
       "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0GQD46P1Z",
+      "section": "kids",
+      "title": "Crayola Color Wonder Magic Light Brush featuring Ms. Rachel",
+      "blurb": "Mess-free coloring with a light-up brush and Ms. Rachel pages for preschoolers.",
+      "badge": "Mess-free",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0GN243YB9",
+      "section": "kids",
+      "title": "LeapFrog My First Gamer",
+      "blurb": "A toddler-friendly handheld learning game with letters, numbers, and silly sounds.",
+      "badge": "Preschool",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0CRSLWS81",
+      "section": "kids",
+      "title": "Educational Insights Kanoodle Ultimate Champion",
+      "blurb": "A brain-teasing puzzle game with hundreds of challenges that fits in a travel case.",
+      "badge": "Puzzle",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0FR9B3Q5R",
+      "section": "kids",
+      "title": "Hatchin\u2019 Yoshi Interactive Toy",
+      "blurb": "An interactive Yoshi that hatches from its egg and responds to play, for young Mario fans.",
+      "badge": "Interactive",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B009VE38CI",
+      "section": "kids",
+      "title": "Kahootz Spirograph Original Deluxe Art Set",
+      "blurb": "The classic gear-drawing set for swirling designs, a timeless screen-free gift.",
+      "badge": "Classic",
+      "source": "Good Housekeeping"
+    },
+    {
+      "asin": "B0BSXCKTYC",
+      "section": "kids",
+      "title": "Ravensburger GraviTrax XXL Starter Set",
+      "blurb": "A big marble-run starter set that teaches gravity, momentum, and design through play.",
+      "badge": "STEM",
+      "source": "Popular Science"
     },
     {
       "asin": "B0DRW6VY43",
@@ -159,35 +159,11 @@
       "source": "9to5Toys"
     },
     {
-      "asin": "B0DRW69H11",
-      "section": "lego",
-      "title": "LEGO Creator 3-in-1 Wild Animals: Majestic Rhino with Birds 31171",
-      "blurb": "An Amazon-exclusive 3-in-1 animal set that rebuilds into three different scenes.",
-      "badge": "Big markdown",
-      "source": "Stone Wars"
-    },
-    {
-      "asin": "B09FM57L7B",
-      "section": "lego",
-      "title": "LEGO Creator 3-in-1 Majestic Tiger 31129",
-      "blurb": "A bright orange tiger that rebuilds into a panda or a koi fish.",
-      "badge": "3-in-1",
-      "source": "Stone Wars"
-    },
-    {
       "asin": "B0CV276VQL",
       "section": "lego",
       "title": "LEGO Marvel Dancing Groot 76297",
       "blurb": "Turn the crank and this 459-piece potted Groot busts a move.",
       "badge": "Fan favorite",
-      "source": "Consequence"
-    },
-    {
-      "asin": "B09Q9848S5",
-      "section": "lego",
-      "title": "LEGO Star Wars The Mandalorian's N-1 Starfighter 75325",
-      "blurb": "Mando's sleek N-1 with Grogu, Peli Motto, and a BD droid.",
-      "badge": "Star Wars",
       "source": "Consequence"
     },
     {
@@ -199,43 +175,67 @@
       "source": "Consequence"
     },
     {
-      "asin": "B0DJ1CGPKN",
+      "asin": "B09FM57L7B",
       "section": "lego",
-      "title": "LEGO F1 Collectible Race Cars 6-Pack 66796",
-      "blurb": "Six mystery mini F1 cars in team colors, a great stocking stuffer.",
-      "badge": "Stocking stuffer",
-      "source": "Consequence"
-    },
-    {
-      "asin": "B0DRW8G3WK",
-      "section": "lego",
-      "title": "LEGO Botanicals Mini Bonsai Trees 10373",
-      "blurb": "Build a ginkgo, a black pine, and a wisteria bonsai for a shelf-worthy display.",
-      "badge": "Display build",
+      "title": "LEGO Creator 3-in-1 Majestic Tiger 31129",
+      "blurb": "A bright orange tiger that rebuilds into a panda or a koi fish.",
+      "badge": "3-in-1",
       "source": "Stone Wars"
     },
     {
-      "asin": "B0DRW8G3VY",
+      "asin": "B0CGY3VF3K",
       "section": "lego",
-      "title": "LEGO Animal Crossing Blathers's Museum Collection 77056",
-      "blurb": "Visit the museum with Blathers in this Animal Crossing set for young gamers.",
-      "badge": "Gamer gift",
+      "title": "LEGO Creator 3-in-1 Forest Animals: Red Fox 31154",
+      "blurb": "One box builds a posable red fox, an owl, or a squirrel with a snowy tree stand.",
+      "badge": "3-in-1",
+      "source": "Consequence"
+    },
+    {
+      "asin": "B0CV21CH75",
+      "section": "lego",
+      "title": "LEGO Creator 3-in-1 T. rex 31151",
+      "blurb": "Rebuild a roaring T. rex into a triceratops or pterodactyl with the same bricks.",
+      "badge": "3-in-1",
+      "source": "Consequence"
+    },
+    {
+      "asin": "B0CGY1LZ78",
+      "section": "lego",
+      "title": "LEGO Animal Crossing Nook\u2019s Cranny & Rosie\u2019s House 77050",
+      "blurb": "A cozy island shop and villager home for Animal Crossing fans.",
+      "badge": "Gaming",
       "source": "9to5Toys"
     },
     {
-      "asin": "B0CV2HGYS3",
+      "asin": "B0BGQLZ921",
       "section": "lego",
-      "title": "LEGO City Car Transporter Truck with Sports Cars 60408",
-      "blurb": "A big rig with a working ramp and three sports cars to haul.",
-      "badge": "City pick",
+      "title": "LEGO Icons Dried Flower Centerpiece 10314",
+      "blurb": "An autumn-toned brick bouquet that makes a lasting Thanksgiving table piece.",
+      "badge": "Display",
+      "source": "Consequence"
+    },
+    {
+      "asin": "B0G2T2742B",
+      "section": "lego",
+      "title": "LEGO Disney Moana Kakamora 43293",
+      "blurb": "A playful Moana build featuring the coconut-armored Kakamora.",
+      "badge": "Disney",
       "source": "9to5Toys"
     },
     {
-      "asin": "B0G2T25FMG",
+      "asin": "B0DRW4TS7L",
       "section": "lego",
-      "title": "LEGO Bluey Grannies with Bingo and Bluey 11216",
-      "blurb": "A small Bluey set for preschool builders, great for little fans.",
-      "badge": "Little builders",
+      "title": "LEGO Friends Panda Sanctuary",
+      "blurb": "A small animal-care build with pandas and a sanctuary for younger builders.",
+      "badge": "Stocking stuffer",
+      "source": "9to5Toys"
+    },
+    {
+      "asin": "B0G2SZ2V3L",
+      "section": "lego",
+      "title": "LEGO Icons Baby Elephant in the Sky",
+      "blurb": "A whimsical display build of a little elephant floating in the sky.",
+      "badge": "Display",
       "source": "9to5Toys"
     },
     {
@@ -247,27 +247,11 @@
       "source": "Good Housekeeping"
     },
     {
-      "asin": "B0HJB1CGR3",
-      "section": "tech",
-      "title": "Apple Watch SE 3 (GPS)",
-      "blurb": "Apple's value smartwatch with fitness, sleep, and safety features.",
-      "badge": "Best value",
-      "source": "Good Housekeeping"
-    },
-    {
       "asin": "B0HJ9ZXCSD",
       "section": "tech",
       "title": "Apple Watch Series 12 (GPS)",
       "blurb": "The newest Apple Watch with advanced health tracking.",
       "badge": "Black Friday pick",
-      "source": "Good Housekeeping"
-    },
-    {
-      "asin": "B0HJB76H2V",
-      "section": "tech",
-      "title": "Apple AirPods 5",
-      "blurb": "Apple's everyday wireless earbuds with a USB-C case.",
-      "badge": "Gift idea",
       "source": "Good Housekeeping"
     },
     {
@@ -287,30 +271,6 @@
       "source": "9to5Toys"
     },
     {
-      "asin": "B0F7Z4QZTT",
-      "section": "tech",
-      "title": "Amazon Fire TV Stick 4K Plus (Wi-Fi 6)",
-      "blurb": "A faster 4K streaming stick with Wi-Fi 6.",
-      "badge": "Amazon device",
-      "source": "9to5Toys"
-    },
-    {
-      "asin": "B09B93ZDG4",
-      "section": "tech",
-      "title": "Amazon Echo Dot (Deep Sea Blue)",
-      "blurb": "Amazon's compact smart speaker with Alexa.",
-      "badge": "Amazon device",
-      "source": "9to5Toys"
-    },
-    {
-      "asin": "B0BFC8DR7C",
-      "section": "tech",
-      "title": "Amazon Echo Spot (2024 release)",
-      "blurb": "A smart alarm clock with a display and Alexa.",
-      "badge": "Bedside pick",
-      "source": "9to5Toys"
-    },
-    {
       "asin": "B0CFPJYX7P",
       "section": "tech",
       "title": "Amazon Kindle Paperwhite 16GB (2024)",
@@ -319,19 +279,59 @@
       "source": "NBC Select"
     },
     {
-      "asin": "B0CNVCQZG1",
+      "asin": "B0DC8ZMR1P",
       "section": "tech",
-      "title": "Amazon Kindle (2024 release)",
-      "blurb": "The lightest Kindle, great for kids and travel reading.",
-      "badge": "Reader pick",
-      "source": "NBC Select"
+      "title": "Amazon Echo Show 8",
+      "blurb": "An 8-inch smart display for video calls, recipes, photos, and smart-home control.",
+      "badge": "Smart display",
+      "source": "9to5Toys"
     },
     {
-      "asin": "B0CZPHPJLN",
+      "asin": "B0D6SX8VLQ",
       "section": "tech",
-      "title": "Beats Solo 4 On-Ear Headphones",
-      "blurb": "Lightweight wireless on-ear headphones with long battery life.",
-      "badge": "Audio pick",
+      "title": "Amazon Echo Dot Max",
+      "blurb": "A bigger-sounding Echo Dot for music and Alexa in any room.",
+      "badge": "Smart speaker",
+      "source": "9to5Toys"
+    },
+    {
+      "asin": "B0CGVSKR1G",
+      "section": "tech",
+      "title": "Amazon Kindle Colorsoft (16GB)",
+      "blurb": "A color e-reader for comics, cookbooks, and highlights, with glare-free reading.",
+      "badge": "E-reader",
+      "source": "9to5Toys"
+    },
+    {
+      "asin": "B09BZZ3MM7",
+      "section": "tech",
+      "title": "Amazon Fire TV Cube",
+      "blurb": "A fast 4K streaming box with hands-free Alexa and Wi-Fi 6E.",
+      "badge": "Streaming",
+      "source": "9to5Toys"
+    },
+    {
+      "asin": "B0CNVBQK38",
+      "section": "tech",
+      "title": "Amazon Kindle Kids (16GB)",
+      "blurb": "A kid-friendly Kindle with a cover, parental controls, and a big book library to explore.",
+      "badge": "Kids tech",
+      "source": "9to5Toys"
+    },
+    {
+      "asin": "B0F3PT1VBL",
+      "section": "tech",
+      "title": "Sony WH-1000XM6 Wireless Noise Canceling Headphones",
+      "blurb": "Sony\u2019s flagship noise-canceling headphones for travel and quiet focus.",
+      "badge": "Audio",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B0H2B6Q4QN",
+      "section": "tech",
+      "title": "Bose SoundLink Flex (2nd Gen) Bluetooth Speaker",
+      "blurb": "A rugged, waterproof portable speaker that\u2019s easy to clip onto a bag.",
+      "badge": "Audio",
       "source": "Popular Science"
     },
     {
@@ -351,59 +351,11 @@
       "source": "Tool Army"
     },
     {
-      "asin": "B07JPFHQKG",
+      "asin": "B0FHX128X8",
       "section": "tools",
-      "title": "DEWALT 20V MAX XR Brushless Jig Saw (DCS334B)",
-      "blurb": "A brushless jigsaw for curves and cutouts (tool only).",
-      "badge": "Half off",
-      "source": "Tool Army"
-    },
-    {
-      "asin": "B00KWRM78E",
-      "section": "tools",
-      "title": "DEWALT 20V MAX LED Hand Held Area Light (DCL050)",
-      "blurb": "A bright handheld work light that runs on DeWalt 20V batteries (tool only).",
-      "badge": "Stocking stuffer",
-      "source": "Tool Army"
-    },
-    {
-      "asin": "B0B9HRN1NL",
-      "section": "tools",
-      "title": "DEWALT 1/2-in. Drive Torque Wrench Tire Change Kit (DWMT45012)",
-      "blurb": "A 12-piece torque wrench set for tire changes and auto work.",
-      "badge": "Garage pick",
-      "source": "Tool Army"
-    },
-    {
-      "asin": "B0CNKXHGZT",
-      "section": "tools",
-      "title": "CRAFTSMAN 262-Piece Mechanics Tool Set with VersaStack Box",
-      "blurb": "A huge mechanics set with sockets, ratchets, and wrenches in a stackable case.",
-      "badge": "Gift pick",
-      "source": "Bob Vila"
-    },
-    {
-      "asin": "B0CPZGTYMF",
-      "section": "tools",
-      "title": "CRAFTSMAN 10-Piece 3/8-in. Metric Socket Set",
-      "blurb": "An affordable metric socket set for everyday repairs.",
-      "badge": "Budget pick",
-      "source": "Bob Vila"
-    },
-    {
-      "asin": "B01BHJE0J4",
-      "section": "tools",
-      "title": "DEWALT 192-Piece Mechanics Tool Set",
-      "blurb": "A complete mechanics set with sockets and ratchets in a hard case.",
-      "badge": "Garage pick",
-      "source": "Bob Vila"
-    },
-    {
-      "asin": "B0DK2H7G5G",
-      "section": "tools",
-      "title": "Klein Tools KNECT 16-in-1 Impact Screwdriver",
-      "blurb": "A multi-bit screwdriver that handles almost any fastener.",
-      "badge": "Handy gift",
+      "title": "Dremel 8150 Rotary Tool Kit",
+      "blurb": "A cordless rotary tool for carving, sanding, and crafting.",
+      "badge": "DIY pick",
       "source": "Bob Vila"
     },
     {
@@ -415,28 +367,69 @@
       "source": "Bob Vila"
     },
     {
-      "asin": "B01IR1SUEG",
+      "asin": "B0CNKXHGZT",
       "section": "tools",
-      "title": "BLACK+DECKER 20V MAX Drill and Impact Driver Kit",
-      "blurb": "A budget-friendly drill and impact driver combo for home projects.",
-      "badge": "Budget pick",
-      "source": "Popular Science"
+      "title": "CRAFTSMAN 262-Piece Mechanics Tool Set with VersaStack Box",
+      "blurb": "A huge mechanics set with sockets, ratchets, and wrenches in a stackable case.",
+      "badge": "Gift pick",
+      "source": "Bob Vila",
+      "verified_title": "Craftsman 262-Piece Mechanic Tool Set with 3-Drawer VERSASTACK Box, SAE and Metric Socket Set, Car and Motorcycle Tool Kit with Combination Wrenches and Spark Plug Sockets, 90-Toot"
     },
     {
-      "asin": "B0FHX128X8",
+      "asin": "B0GR1K5HK1",
       "section": "tools",
-      "title": "Dremel 8150 Rotary Tool Kit",
-      "blurb": "A cordless rotary tool for carving, sanding, and crafting.",
-      "badge": "DIY pick",
+      "title": "DEWALT 20V MAX 3-Tool Brushless Combo Kit",
+      "blurb": "Drill, impact driver, and oscillating multi-tool with batteries and charger, a starter workshop in a bag.",
+      "badge": "Combo kit",
       "source": "Bob Vila"
     },
     {
-      "asin": "B0DLLGG2Z8",
-      "section": "bath",
-      "title": "Oral-B iO Series 2 Rechargeable Electric Toothbrush",
-      "blurb": "An entry-level iO brush with a travel case, one of the deepest Oral-B markdowns of the sale.",
-      "badge": "Black Friday pick",
-      "source": "DansDeals"
+      "asin": "B0GNB4XT2G",
+      "section": "tools",
+      "title": "CRAFTSMAN V20 Cordless Drill Kit",
+      "blurb": "An affordable cordless drill kit for furniture assembly and weekend projects.",
+      "badge": "Starter",
+      "source": "Bob Vila"
+    },
+    {
+      "asin": "B007NVSTO8",
+      "section": "tools",
+      "title": "DEWALT 20V MAX Cordless Circular Saw",
+      "blurb": "A cordless 6-1/2-inch circular saw for quick cuts on DIY builds.",
+      "badge": "Saw",
+      "source": "Bob Vila"
+    },
+    {
+      "asin": "B00BD5G9VA",
+      "section": "tools",
+      "title": "Bosch Random Orbit Palm Sander",
+      "blurb": "A compact corded orbital sander for refinishing furniture and smoothing trim.",
+      "badge": "Sanding",
+      "source": "Bob Vila"
+    },
+    {
+      "asin": "B0GLKGF8HY",
+      "section": "tools",
+      "title": "Klein Tools MODbox Small Tool Box",
+      "blurb": "A rugged modular tool box that stacks into the MODbox system.",
+      "badge": "Storage",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B00004SBB1",
+      "section": "tools",
+      "title": "IRWIN VISE-GRIP 12-Inch Locking Pliers",
+      "blurb": "Classic locking pliers for clamping, gripping, and stuck fasteners.",
+      "badge": "Hand tool",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B00C625KVE",
+      "section": "tools",
+      "title": "BLACK+DECKER 20V MAX Drill with 68-Piece Project Kit",
+      "blurb": "A cordless drill plus bits and accessories, great for a first apartment or new homeowner.",
+      "badge": "Gift idea",
+      "source": "Popular Science"
     },
     {
       "asin": "B0B5HT9TSK",
@@ -444,15 +437,8 @@
       "title": "Oral-B iO3 Rechargeable Electric Toothbrush",
       "blurb": "An iO brush with a visual pressure sensor and three cleaning modes.",
       "badge": "Oral care",
-      "source": "DansDeals"
-    },
-    {
-      "asin": "B0B5HVM6JX",
-      "section": "bath",
-      "title": "Oral-B iO5 Rechargeable Electric Toothbrush",
-      "blurb": "Five cleaning modes, a smart pressure sensor, and a travel case.",
-      "badge": "Upgrade pick",
-      "source": "DansDeals"
+      "source": "DansDeals",
+      "verified_title": "Oral-B Rechargeable Electric Toothbrush, iO3 Limited Deep Clean, 3 Cleaning Modes, Visual Pressure Sensor to Protect Gums, 2 Brush Heads, Travel Case, White"
     },
     {
       "asin": "B078GVH2VH",
@@ -463,14 +449,6 @@
       "source": "TrackPin"
     },
     {
-      "asin": "B0H46VSPF2",
-      "section": "bath",
-      "title": "Philips Sonicare 4100 Electric Toothbrush",
-      "blurb": "An accessible sonic toothbrush with a pressure sensor and timer.",
-      "badge": "Starter pick",
-      "source": "9to5Toys"
-    },
-    {
       "asin": "B0HBT4JX9Y",
       "section": "bath",
       "title": "Waterpik Cordless Pulse 3100 Portable Water Flosser",
@@ -479,27 +457,10 @@
       "source": "HuffPost"
     },
     {
-      "asin": "B00AHAWWO0",
-      "section": "bath",
-      "title": "Crest 3D Whitestrips Professional Effects",
-      "blurb": "At-home whitening strips for a brighter holiday smile.",
-      "badge": "Self-care",
-      "source": "NBC Select",
-      "coupon": true
-    },
-    {
       "asin": "B0BSHHNNFQ",
       "section": "bath",
       "title": "Delta ProClean Handheld Shower Head (75740)",
       "blurb": "A six-setting handheld shower head with a high-pressure spray.",
-      "badge": "Bathroom upgrade",
-      "source": "Black Friday Is Here"
-    },
-    {
-      "asin": "B0145VC5YS",
-      "section": "bath",
-      "title": "Moen Engage Handheld Showerhead (26112SRN)",
-      "blurb": "A spot-resist brushed-nickel handheld showerhead.",
       "badge": "Bathroom upgrade",
       "source": "Black Friday Is Here"
     },
@@ -513,20 +474,60 @@
       "coupon": true
     },
     {
-      "asin": "B00Q7JESL0",
-      "section": "bath",
-      "title": "Amazon Basics 6-Piece Fade-Resistant Cotton Towel Set",
-      "blurb": "An everyday 100% cotton towel set for the guest bath.",
-      "badge": "Budget pick",
-      "source": "Black Friday Is Here"
-    },
-    {
       "asin": "B00GQP0XTQ",
       "section": "bath",
       "title": "Utopia Towels 8-Piece Bath Towel Set",
       "blurb": "A ring-spun cotton towel set that dries quickly.",
       "badge": "Value pick",
       "source": "Black Friday Is Here"
+    },
+    {
+      "asin": "B0DCCJZC9F",
+      "section": "bath",
+      "title": "Oral-B iO Series 7 Rechargeable Electric Toothbrush",
+      "blurb": "Smart pressure sensor, multiple cleaning modes, and a charging travel case.",
+      "badge": "Electric toothbrush",
+      "source": "TrackPin"
+    },
+    {
+      "asin": "B088CL4RKZ",
+      "section": "bath",
+      "title": "Oral-B iO Series 8 Electric Toothbrush",
+      "blurb": "A premium iO brush with an interactive display and smart brushing feedback.",
+      "badge": "Electric toothbrush",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B0GFPWSRP4",
+      "section": "bath",
+      "title": "Quip Rev Smart Oscillating Toothbrush",
+      "blurb": "A slim, app-connected oscillating toothbrush that tracks brushing habits.",
+      "badge": "Oral care",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B00HFQQ0VU",
+      "section": "bath",
+      "title": "Waterpik Aquarius Countertop Water Flosser",
+      "blurb": "Ten pressure settings and seven tips for daily gum care, braces, and implants.",
+      "badge": "Water flosser",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B0GL2T1JK7",
+      "section": "bath",
+      "title": "simplehuman Liquid Sensor Pump with Caddy",
+      "blurb": "A touch-free soap dispenser with a built-in caddy for a tidier sink.",
+      "badge": "Bathroom",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B0G66ZJG3Y",
+      "section": "bath",
+      "title": "Philips Sonicare 7300 Rechargeable Electric Toothbrush",
+      "blurb": "Pressure sensor, multiple settings, three brush heads, and a travel case.",
+      "badge": "Electric toothbrush",
+      "source": "TrackPin"
     },
     {
       "asin": "B099WTN2TR",
@@ -537,35 +538,11 @@
       "source": "BuzzFeed"
     },
     {
-      "asin": "B0FK578CSM",
-      "section": "decor",
-      "title": "Pinch-Pleated Blackout Linen Curtains",
-      "blurb": "Pinch-pleat blackout linen curtain panels for a tailored, cozy look.",
-      "badge": "Window refresh",
-      "source": "BuzzFeed"
-    },
-    {
       "asin": "B0C9SJYV3F",
       "section": "decor",
       "title": "Bedsure Faux Fur Bubble Throw Blanket",
       "blurb": "A plush faux-fur bubble blanket for the couch.",
       "badge": "Cozy pick",
-      "source": "BuzzFeed"
-    },
-    {
-      "asin": "B0GT6P4HG6",
-      "section": "decor",
-      "title": "Barefoot Dreams CozyChic Contrast Tip Blanket",
-      "blurb": "The famously soft CozyChic throw, a luxe holiday gift.",
-      "badge": "Gift idea",
-      "source": "BuzzFeed"
-    },
-    {
-      "asin": "B0CZNDR54G",
-      "section": "decor",
-      "title": "Urbandi Modern Floating Shelves",
-      "blurb": "Three wall-mounted floating shelves for photos and decor.",
-      "badge": "Wall decor",
       "source": "BuzzFeed"
     },
     {
@@ -586,12 +563,12 @@
       "coupon": true
     },
     {
-      "asin": "B0995QMQ78",
+      "asin": "B0CZNDR54G",
       "section": "decor",
-      "title": "Dazzle Bright 300 LED String Lights, 100 ft.",
-      "blurb": "Waterproof twinkle lights for indoors or out.",
-      "badge": "Lighting",
-      "source": "House Beautiful"
+      "title": "Urbandi Modern Floating Shelves",
+      "blurb": "Three wall-mounted floating shelves for photos and decor.",
+      "badge": "Wall decor",
+      "source": "BuzzFeed"
     },
     {
       "asin": "B08FY34VR2",
@@ -602,28 +579,52 @@
       "source": "House Beautiful"
     },
     {
-      "asin": "B0HF3PRY4D",
+      "asin": "B0F1FL93TR",
       "section": "decor",
-      "title": "9-ft. Pre-Lit Cedar Christmas Garland, 2-Pack",
-      "blurb": "Two pre-lit faux cedar garlands for mantels and staircases.",
-      "badge": "Seasonal",
+      "title": "Bedsure 100% Cotton Waffle Weave Blanket",
+      "blurb": "A breathable waffle-knit blanket that layers nicely on a bed or sofa.",
+      "badge": "Cozy",
       "source": "House Beautiful"
     },
     {
-      "asin": "B002TL7R3G",
+      "asin": "B07FP23BZL",
       "section": "decor",
-      "title": "Nearly Natural 16-in. Christmas Candelabrum Table Decor",
-      "blurb": "A holiday candelabrum centerpiece for the table.",
-      "badge": "Tablescape",
-      "source": "House Beautiful"
+      "title": "Nearly Natural 26-Inch Sansevieria Artificial Plant",
+      "blurb": "A no-care faux snake plant that adds greenery to any corner.",
+      "badge": "Greenery",
+      "source": "Real Simple"
     },
     {
-      "asin": "B09XMY7F49",
+      "asin": "B0GJ5D7C4G",
       "section": "decor",
-      "title": "Flacchi Meteor Shower Icicle Lights",
-      "blurb": "White LED falling-icicle lights for windows and eaves.",
-      "badge": "Lighting",
-      "source": "Bargain Hunter"
+      "title": "MIULEE Pinch Pleated Linen Curtains, 96-Inch, 4 Panels",
+      "blurb": "Natural linen-look pinch-pleat panels that soften a living room or bedroom.",
+      "badge": "Window",
+      "source": "Real Simple"
+    },
+    {
+      "asin": "B0FY3CJF51",
+      "section": "decor",
+      "title": "GarveeHome Washable 6x9 Area Rug, Sage Green",
+      "blurb": "A machine-washable rug that\u2019s practical for kids and pets.",
+      "badge": "Rug",
+      "source": "Real Simple"
+    },
+    {
+      "asin": "B0FMGNF843",
+      "section": "decor",
+      "title": "Philips Hue White and Color Ambiance A19 Bulbs, 3-Pack",
+      "blurb": "Smart color bulbs for cozy evenings, holiday scenes, and routines.",
+      "badge": "Smart lighting",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B08HV6V49V",
+      "section": "decor",
+      "title": "Philips Hue Play Gradient Lightstrip for 55-Inch TVs",
+      "blurb": "Behind-the-TV lighting that syncs colors with movies and games.",
+      "badge": "Ambient lighting",
+      "source": "Popular Science"
     },
     {
       "asin": "B0769ZQWH7",
@@ -631,7 +632,8 @@
       "title": "KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer",
       "blurb": "The iconic stand mixer for holiday baking.",
       "badge": "Baker pick",
-      "source": "Popular Science"
+      "source": "Popular Science",
+      "verified_title": "KitchenAid Artisan, 5-Qt Tilt Head Stand Mixer, KSM150PS, Milkshake | Includes Pouring Shield for Mess-Free Mixing, 10 Speed Settings, Easily add Ingredients with the Tilt-Head Des"
     },
     {
       "asin": "B0D1GW9GMJ",
@@ -650,30 +652,6 @@
       "source": "Popular Science"
     },
     {
-      "asin": "B00FLYWNYQ",
-      "section": "kitchen",
-      "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
-      "blurb": "A pressure cooker, slow cooker, and rice cooker in one.",
-      "badge": "Hosting pick",
-      "source": "Allrecipes"
-    },
-    {
-      "asin": "B09715G57M",
-      "section": "kitchen",
-      "title": "Keurig K-Express Single Serve Coffee Maker",
-      "blurb": "A simple single-serve brewer for morning coffee.",
-      "badge": "Coffee",
-      "source": "Allrecipes"
-    },
-    {
-      "asin": "B0764492S9",
-      "section": "kitchen",
-      "title": "Lodge Essential Enamel Cast Iron Dutch Oven",
-      "blurb": "An enameled Dutch oven for braises, stews, and bread.",
-      "badge": "Cookware",
-      "source": "Allrecipes"
-    },
-    {
       "asin": "B00G2XGC88",
       "section": "kitchen",
       "title": "Lodge Pre-Seasoned Cast Iron Skillet",
@@ -682,44 +660,68 @@
       "source": "Allrecipes"
     },
     {
-      "asin": "B08BR9HBZ3",
+      "asin": "B00FLYWNYQ",
       "section": "kitchen",
-      "title": "Rubbermaid Brilliance Glass Food Storage Containers, 9-Count",
-      "blurb": "Leak-proof glass containers for holiday leftovers.",
-      "badge": "Storage",
+      "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+      "blurb": "A pressure cooker, slow cooker, and rice cooker in one.",
+      "badge": "Hosting pick",
       "source": "Allrecipes"
     },
     {
-      "asin": "B00S93EQUK",
+      "asin": "B0GVVJZDQV",
       "section": "kitchen",
-      "title": "Alpha Grillers Instant-Read Meat Thermometer",
-      "blurb": "A fast, waterproof thermometer for the Thanksgiving turkey.",
-      "badge": "Turkey day",
-      "source": "Allrecipes"
+      "title": "Cuisinart TOA-55 Air Fryer Toaster Oven",
+      "blurb": "A countertop oven that air fries, bakes, and toasts, with room for a 12-inch pizza.",
+      "badge": "Air fryer",
+      "source": "Popular Science"
     },
     {
-      "asin": "B01LX8I3R3",
+      "asin": "B0DZK78BFW",
       "section": "kitchen",
-      "title": "KitchenAid 3.5-Cup Food Chopper",
-      "blurb": "A compact chopper for prepping holiday sides.",
-      "badge": "Gadget",
-      "source": "Allrecipes"
+      "title": "Ninja Crispi Glass Air Fryer",
+      "blurb": "A glass air fryer that doubles as a storage container, from fridge to crisp.",
+      "badge": "Air fryer",
+      "source": "Popular Science"
     },
     {
-      "asin": "B08133HX34",
+      "asin": "B003OXNBYC",
       "section": "kitchen",
-      "title": "Breville Barista Pro Espresso Machine",
-      "blurb": "An espresso machine with a built-in grinder.",
+      "title": "KitchenAid Classic 4.5-Qt Tilt-Head Stand Mixer",
+      "blurb": "The classic KitchenAid mixer for holiday cookies, breads, and mashed potatoes.",
+      "badge": "Stand mixer",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B08R6KMBQT",
+      "section": "kitchen",
+      "title": "Instant Vortex Plus Mini 4-Qt Air Fryer",
+      "blurb": "A compact air fryer for small kitchens, sides, and quick snacks.",
+      "badge": "Compact",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B07PFLM2LK",
+      "section": "kitchen",
+      "title": "Ninja CM401 Specialty 10-Cup Coffee Maker",
+      "blurb": "Brews classic, rich, and over-ice coffee with a built-in frother.",
       "badge": "Coffee",
       "source": "Popular Science"
     },
     {
-      "asin": "B004P2NG0K",
+      "asin": "B0DC8FD41B",
       "section": "kitchen",
-      "title": "Crock-Pot 6-Qt Cook & Carry Programmable Slow Cooker",
-      "blurb": "A travel-ready slow cooker for potlucks.",
-      "badge": "Potluck pick",
-      "source": "Allrecipes"
+      "title": "ThermoWorks ThermoPop 2 Thermometer",
+      "blurb": "A fast, affordable instant-read thermometer for turkey day and beyond.",
+      "badge": "Gadget",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B0F4LVFQLC",
+      "section": "kitchen",
+      "title": "OXO Good Grips 8-Piece Baking POP Container Set",
+      "blurb": "Airtight stackable canisters for flour, sugar, and holiday baking staples.",
+      "badge": "Storage",
+      "source": "Popular Science"
     },
     {
       "asin": "B003YLJZ6M",
@@ -735,31 +737,8 @@
       "title": "Lenox Holiday 12-Piece Plate and Bowl Set",
       "blurb": "Classic holly-pattern dinnerware for Thanksgiving through Christmas.",
       "badge": "Hosting",
-      "source": "House Beautiful"
-    },
-    {
-      "asin": "B0DV5SK8VJ",
-      "section": "holiday",
-      "title": "National Tree Company 7.5-ft. Pre-Lit Kingswood Fir Slim Tree",
-      "blurb": "A slim pre-lit tree that fits smaller rooms.",
-      "badge": "Christmas tree",
-      "source": "Bob Vila"
-    },
-    {
-      "asin": "B0749ZHGV2",
-      "section": "holiday",
-      "title": "National Tree Company 6-ft. Pre-Lit Dunhill Fir Tree",
-      "blurb": "A full pre-lit Dunhill fir in an apartment-friendly height.",
-      "badge": "Christmas tree",
-      "source": "Bob Vila"
-    },
-    {
-      "asin": "B0FNRQY5NH",
-      "section": "holiday",
-      "title": "COSTWAY 8-ft. Pre-Lit Christmas Tree",
-      "blurb": "A tall pre-lit tree for high ceilings.",
-      "badge": "Christmas tree",
-      "source": "Bob Vila"
+      "source": "House Beautiful",
+      "verified_title": "Amazon.com | Lenox Holiday Christmas Porcelain Dinnerware Plate and Bowl Set, 12-Piece | ceramic, dishwasher safe | includes dinner plates, salad plates, bowls | kitchen and dining"
     },
     {
       "asin": "B087P3KKF3",
@@ -770,26 +749,10 @@
       "source": "House Beautiful"
     },
     {
-      "asin": "B0CKWTLV42",
-      "section": "holiday",
-      "title": "Brightown 3D Glittered Star Tree Topper",
-      "blurb": "A lighted glittered star to finish the tree.",
-      "badge": "Tree topper",
-      "source": "Bargain Hunter"
-    },
-    {
       "asin": "B0G5QKD8ZS",
       "section": "holiday",
       "title": "LEGO Star Wars Advent Calendar 2026",
       "blurb": "24 days of Star Wars mini builds and minifigures.",
-      "badge": "Advent calendar",
-      "source": "NBC Select"
-    },
-    {
-      "asin": "B0BSLXCNXK",
-      "section": "holiday",
-      "title": "Bluey Advent Calendar 2026",
-      "blurb": "Daily Bluey figures and accessories for preschool fans.",
       "badge": "Advent calendar",
       "source": "NBC Select"
     },
@@ -802,20 +765,60 @@
       "source": "NBC Select"
     },
     {
-      "asin": "B0G1TZTY5K",
+      "asin": "B09WFBMQL7",
       "section": "holiday",
-      "title": "Hot Wheels 2026 Advent Calendar",
-      "blurb": "24 days of Hot Wheels cars and accessories.",
-      "badge": "Advent calendar",
-      "source": "NBC Select"
+      "title": "Nordic Ware Let It Snow Bundt Pan",
+      "blurb": "A snowflake-sculpted Bundt pan that makes festive holiday cakes.",
+      "badge": "Baking",
+      "source": "Popular Science"
     },
     {
-      "asin": "B0H25YZ4V5",
+      "asin": "B0D458RG3V",
       "section": "holiday",
-      "title": "Brightown Battery-Operated C6 Christmas String Lights, 2-Pack",
-      "blurb": "Cordless string lights for wreaths and mantels.",
-      "badge": "Lights",
-      "source": "Bargain Hunter"
+      "title": "Govee Christmas String Lights 2",
+      "blurb": "App-controlled smart string lights with color effects for the tree or porch.",
+      "badge": "Smart lights",
+      "source": "Popular Science"
+    },
+    {
+      "asin": "B00EC820TA",
+      "section": "holiday",
+      "title": "National Tree Company Pre-Lit Crestwood Spruce Wreath",
+      "blurb": "A classic pre-lit wreath for the front door or over the mantel.",
+      "badge": "Wreath",
+      "source": "House Beautiful"
+    },
+    {
+      "asin": "B09M1YJWDS",
+      "section": "holiday",
+      "title": "Balsam Hill 4.5-ft Pre-Lit Classic Blue Spruce Tree",
+      "blurb": "A realistic, pre-lit tabletop-size tree for apartments, entryways, or kids\u2019 rooms.",
+      "badge": "Tree",
+      "source": "House Beautiful"
+    },
+    {
+      "asin": "B003MAEC1I",
+      "section": "holiday",
+      "title": "National Tree Company 9-ft Pre-Lit Carolina Pine Garland",
+      "blurb": "Pre-lit garland for the mantel, stairs, or doorway.",
+      "badge": "Garland",
+      "source": "Bob Vila"
+    },
+    {
+      "asin": "B0D7VPVSQ2",
+      "section": "holiday",
+      "title": "Govee Smart Christmas Tree Lights, 6.6 ft",
+      "blurb": "App-controlled tree lights with customizable color scenes.",
+      "badge": "Smart lights",
+      "source": "Bob Vila"
+    },
+    {
+      "asin": "B013LSNDY2",
+      "section": "holiday",
+      "title": "National Tree Company Artificial Mini Christmas Tree",
+      "blurb": "A small tabletop tree for a desk, dorm, or kids\u2019 room.",
+      "badge": "Mini tree",
+      "source": "Good Housekeeping"
     }
   ]
 }
